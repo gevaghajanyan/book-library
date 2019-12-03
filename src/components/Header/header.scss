@@ -1,12 +1,19 @@
 .header {
-  height: 82px;
+  min-height: 70px;
   padding: 0 35px;
   display: grid;
   grid-template-columns: 90px 90px 90px 1fr 350px;
   align-items: center;
-  //background: var(--light-100);
+  background: var(--primary-200);
   @media screen and (max-width: 786px){
-    padding: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    > .input-content {
+      max-width: 100%;
+      width: 100%;
+    }
   }
 }
 
