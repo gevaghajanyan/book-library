@@ -1,0 +1,39 @@
+.book-details-section {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 250px auto;
+  grid-template-areas: "bookImage bookHeader" "bookImage bookBody";
+  background-image: linear-gradient(to bottom, #a5a4de 1%, #32b8d6 300px, #FFFFFF 300px);
+  padding: 50px;
+  grid-column-gap: 24px;
+  box-sizing: border-box;
+}
+
+.book-details-image {
+  width: 100%;
+  grid-area: bookImage;
+}
+
+.book-details-header {
+  color: var(--main-light-color);
+  grid-area: bookHeader;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-details-download {
+  margin: 24px 0;
+}
+
+.book-details-header-published {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.book-details-body {
+  grid-area: bookBody;
+}
+
+.book-details-sub-description-item {
+  line-height: 1.5rem;
+}

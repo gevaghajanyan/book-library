@@ -1,0 +1,15 @@
+.categories-section {
+  display: grid;
+  grid-template-rows: 80px auto;
+  padding: 35px 50px;
+  box-sizing: border-box;
+  @media screen and (max-width: 786px) {
+    padding: 35px 0;
+  }
+}
+
+.categories-list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}

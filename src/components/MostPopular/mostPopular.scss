@@ -1,0 +1,20 @@
+.most-popular {
+  display: grid;
+  grid-template-rows: 80px auto;
+  padding: 35px 50px;
+  box-sizing: border-box;
+  @media screen and (max-width: 786px) {
+    padding: 35px 0;
+  }
+}
+
+.most-popular-header {
+  display: grid;
+  align-items: center;
+}
+
+.most-popular-books {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}

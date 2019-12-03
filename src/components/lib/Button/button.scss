@@ -1,0 +1,14 @@
+.lib-button {
+  outline: none;
+  border: none;
+  padding: 12px;
+  box-sizing: border-box;
+  max-width: 120px;
+  min-height: 40px;
+  border-radius: 20px;
+  color: var(--main-light-color);
+  background-color: var(--primary-100);
+  &:hover {
+    background-color: var(--primary-200);
+  }
+}

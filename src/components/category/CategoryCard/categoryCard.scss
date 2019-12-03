@@ -1,0 +1,21 @@
+.category-card-section {
+  color: var(--main-light-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  padding: 24px;
+  grid-template-rows: 50px 30px 30px auto;
+}
+
+.category-card-header {
+
+}
+
+.category-card-books {
+  display: grid;
+  grid-template-columns: repeat(2, 120px);
+  grid-gap: 20px;
+  .book-block img {
+    height: 170px;
+  }
+}

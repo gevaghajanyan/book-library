@@ -1,0 +1,23 @@
+.header {
+  height: 82px;
+  padding: 0 35px;
+  display: grid;
+  grid-template-columns: 90px 90px 90px 1fr 350px;
+  align-items: center;
+  //background: var(--light-100);
+  @media screen and (max-width: 786px){
+    padding: 0;
+  }
+}
+
+.nav-link {
+  max-width: 120px;
+  text-decoration: none;
+  color: var(--main-dark-color);
+  &.active {
+    font-weight: bold;
+  }
+}
+.header-logo {
+  height: 80px;
+}

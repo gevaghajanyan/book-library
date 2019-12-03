@@ -1,0 +1,41 @@
+.info-panel {
+  background-color: var(--red-100);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: space-between;
+  align-items: center;
+  min-height: 370px;
+  padding: 35px 50px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 786px) {
+    padding: 35px 0;
+  }
+
+}
+
+.info-panel-2 {
+  background-color: #ffea26;
+}
+
+.info-panel-3 {
+  background-color: #69bfff;
+}
+
+.info-title {
+
+  & > h1 {
+    font-size: 2.875rem;
+    font-weight: normal;
+    letter-spacing: -0.19px;
+    color: var(--main-dark-color);
+  }
+}
+
+.info-panel-book {
+  max-width: 360px;
+  justify-self: end;
+  @media screen and (max-width: 786px) {
+    max-width: 280px;;
+  }
+}

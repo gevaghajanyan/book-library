@@ -1,0 +1,10 @@
+.book-list-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+  padding: 35px 50px;
+  box-sizing: border-box;
+  @media screen and (max-width: 786px) {
+    padding: 35px 0;
+  }
+}

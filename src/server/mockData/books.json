@@ -1,0 +1,1933 @@
+[
+  {
+    "id": 1,
+    "authors": [
+      "Kyle Simpson"
+    ],
+    "imageUrl": "images/0.jpg",
+    "filePath": null,
+    "title": "You Don\"t Know JS: Up & Going",
+    "description": [
+      "It’s easy to learn parts of JavaScript, but much harder to learn it completely—or even sufficiently—whether you’re new to the language or have used it for years. With the \"You Don’t Know JS\" book series, you’ll get a more complete understanding of JavaScript, including trickier parts of the language that many experienced JavaScript programmers simply avoid.",
+      "The series’ first book, Up & Going, provides the necessary background for those of you with limited programming experience. By learning the basic building blocks of programming, as well as JavaScript’s core mechanisms, you’ll be prepared to dive into the other, more in-depth books in the series—and be well on your way toward true JavaScript."
+    ],
+    "subDescription": {
+      "title": "With this book you will:",
+      "list": [
+        "Learn the essential programming building blocks, including operators, types, variables, conditionals, loops, and functions",
+        "Become familiar with JavaScript\"s core mechanisms such as values, function closures, this, and prototypes",
+        "Get an overview of other books in the series—and learn why it’s important to understand all parts of JavaScript"
+      ]
+    },
+    "categories": [
+      "Programing",
+      "Java Script"
+    ],
+    "rate": 90,
+    "pages": null,
+    "country": null,
+    "published": "2015-03-17T00:00:00"
+  },
+  {
+    "id": 2,
+    "authors": [
+      "Kyle Simpson"
+    ],
+    "imageUrl": "images/1.jpg",
+    "filePath": null,
+    "title": "You Don\"t Know JS: Scope & Closures",
+    "description": [
+      "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise yet in-depth guide takes you inside scope and closures, two core concepts you need to know to become a more efficient and effective JavaScript programmer. You’ll learn how and why they work, and how an understanding of closures can be a powerful part of your development skillset.",
+      "Like other books in the \"You Don’t Know JS\" series, Scope and Closures dives into trickier parts of the language that many JavaScript programmers simply avoid. Armed with this knowledge, you can achieve true JavaScript mastery."
+    ],
+    "subDescription": {
+      "title": null,
+      "list": [
+        "Learn about scope, a set of rules to help JavaScript engines locate variables in your code",
+        "Go deeper into nested scope, a series of containers for variables and functions",
+        "Explore function- and block-based scope, “hoisting”, and the patterns and benefits of scope-based hiding",
+        "Discover how to use closures for synchronous and asynchronous tasks, including the creation of JavaScript libraries"
+      ]
+    },
+    "categories": [
+      "Programing",
+      "Java Script"
+    ],
+    "rate": 90,
+    "pages": null,
+    "country": null,
+    "published": "2014-03-06T00:00:00"
+  },
+  {
+    "id": 3,
+    "authors": [
+      "Kyle Simpson"
+    ],
+    "imageUrl": "images/2.jpg",
+    "filePath": null,
+    "title": "You Don\"t Know JS: This & Object Prototypes",
+    "description": [
+      "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. This concise, in-depth guide takes you inside JavaScript’s this structure and object prototypes. You’ll learn how they work and why they’re integral to behavior delegation—a design pattern in which objects are linked, rather than cloned.",
+      "Like other books in the “You Don’t Know JS” series, this and Object Prototypes dives into trickier parts of the language that many JavaScript programmers simply avoid. Armed with this knowledge, you can become a true JavaScript master."
+    ],
+    "subDescription": {
+      "title": "With this book you will:",
+      "list": [
+        "Explore how the this binding points to objects based on how the function is called",
+        "Look into the nature of JS objects and why you’d need to point to them",
+        "Learn how developers use the mixin pattern to fake classes in JS",
+        "Examine how JS’s prototype mechanism forms links between objects",
+        "Learn how to move from class/inheritance design to behavior delegation",
+        "Understand how the OLOO (objects-linked-to-other-objects) coding style naturally implements behavior delegation"
+      ]
+    },
+    "categories": [
+      "Programing",
+      "Java Script"
+    ],
+    "rate": 90,
+    "pages": null,
+    "country": null,
+    "published": "2014-07-09T00:00:00"
+  },
+  {
+    "id": 4,
+    "authors": [
+      "Kyle Simpson"
+    ],
+    "imageUrl": "images/3.jpg",
+    "filePath": null,
+    "title": "You Don\"t Know JS: Types & Grammar",
+    "description": [
+      "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this compact guide explores JavaScript types in greater depth than previous treatments by looking at type coercion problems, demonstrating why types work, and showing you how to take advantage of these features.",
+      "Like other books in this series, You Don’t Know JS: Types & Grammar dives into trickier parts of the language that many JavaScript programmers simply avoid or assume don’t exist (like types). Armed with this knowledge, you can achieve true JavaScript mastery."
+    ],
+    "subDescription": {
+      "title": "With this book you will:",
+      "list": [
+        "Get acquainted with JavaScript’s seven types: null, undefined, boolean, number, string, object, and symbol",
+        "Understand why JavaSript’s unique array, string, and number characteristics may delight or confound you",
+        "Learn how natives provide object wrappers around primitive values",
+        "Dive into the coercion controversy—and learn why this feature is useful in many cases",
+        "Explore various nuances in JavaScript syntax, involving statements, expressions, and other features"
+      ]
+    },
+    "categories": [
+      "Programing",
+      "Java Script"
+    ],
+    "rate": 90,
+    "pages": null,
+    "country": null,
+    "published": "2015-01-23T00:00:00"
+  },
+  {
+    "id": 5,
+    "authors": [
+      "Kyle Simpson"
+    ],
+    "imageUrl": "images/4.jpg",
+    "filePath": null,
+    "title": "You Don\"t Know JS: Async & Performance",
+    "description": [
+      "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this concise yet in-depth guide focuses on new asynchronous features and performance techniques—including Promises, generators, and Web Workers—that let you create sophisticated single-page web applications and escape callback hell in the process.",
+      "Like other books in this series, You Don’t Know JS: Async & Performance dives into trickier parts of the language that many JavaScript programmers simply avoid. Armed with this knowledge, you can become a true JavaScript master."
+    ],
+    "subDescription": {
+      "title": "With this book you will:",
+      "list": [
+        "Explore old and new JavaScript methods for handling asynchronous programming",
+        "Understand how callbacks let third parties control your program’s execution",
+        "Address the \"inversion of control\" issue with JavaScript Promises",
+        "Use generators to express async flow in a sequential, synchronous-looking fashion",
+        "Tackle program-level performance with Web Workers, SIMD, and asm.js",
+        "Learn valuable resources and techniques for benchmarking and tuning your expressions and statements"
+      ]
+    },
+    "categories": [
+      "Programing",
+      "Java Script"
+    ],
+    "rate": 90,
+    "pages": null,
+    "country": null,
+    "published": "2015-01-23T00:00:00"
+  },
+  {
+    "id": 6,
+    "authors": [
+      "Kyle Simpson"
+    ],
+    "imageUrl": "images/5.jpg",
+    "filePath": null,
+    "title": "You Don\"t Know JS: ES6 and Beyond",
+    "description": [
+      "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built.",
+      "Like other books in this series, You Don’t Know JS: ES6 & Beyond dives into trickier parts of the language that many JavaScript programmers either avoid or know nothing about. Armed with this knowledge, you can achieve true JavaScript mastery."
+    ],
+    "subDescription": {
+      "title": "With this book you will:",
+      "list": [
+        "Learn new ES6 syntax that eases the pain points of common programming idioms",
+        "Organize code with iterators, generators, modules, and classes",
+        "Express async flow control with Promises combined with generators",
+        "Use collections to work more efficiently with files in structured ways",
+        "Leverage new API helpers, including Array, Object, Math, Number, and String",
+        "Extend your program’s capabilities through meta programming",
+        "Preview features likely coming to JS beyond ES6"
+      ]
+    },
+    "categories": [
+      "Programing",
+      "Java Script"
+    ],
+    "rate": 90,
+    "pages": null,
+    "country": null,
+    "published": "2015-01-23T00:00:00"
+  },
+  {
+    "id": 7,
+    "authors": [
+      "Alex Banks",
+      "Eve Porcello"
+    ],
+    "imageUrl": "images/react_Redux.jpg",
+    "filePath": null,
+    "title": "React Redux",
+    "description": null,
+    "subDescription": null,
+    "categories": [
+      "Programing",
+      "Java Script"
+    ],
+    "rate": 85,
+    "pages": null,
+    "country": null,
+    "published": "2015-01-23T00:00:00"
+  },
+  {
+    "id": 8,
+    "authors": [
+      "Stefanov Stoyan"
+    ],
+    "imageUrl": "images/s_s_react.jpg",
+    "filePath": null,
+    "title": "React: Up & Running: Building Web Applications",
+    "description": null,
+    "subDescription": null,
+    "categories": [
+      "Programing",
+      "Java Script"
+    ],
+    "rate": 85,
+    "pages": null,
+    "country": null,
+    "published": "2015-01-23T00:00:00"
+  },
+  {
+    "country": "Nigeria",
+    "language": "English",
+    "pages": 209,
+    "title": "Things Fall Apart",
+    "id": "e123d387-ddd1-451d-bdef-196c049538fe",
+    "rate": 90,
+    "published": "1958-01-01T00:00:00",
+    "imageUrl": "images/things-fall-apart.jpg",
+    "authors": [
+      "Chinua Achebe"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Denmark",
+    "language": "Danish",
+    "pages": 784,
+    "title": "Fairy tales",
+    "id": "c4717f38-8048-498d-b216-318407a637a9",
+    "rate": 90,
+    "published": "1836-01-01T00:00:00",
+    "imageUrl": "images/fairy-tales.jpg",
+    "authors": [
+      "Hans Christian Andersen"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 928,
+    "title": "The Divine Comedy",
+    "id": "853261d1-0018-4d38-b1b7-34e698b8ab96",
+    "rate": 90,
+    "published": "1315-01-01T00:00:00",
+    "imageUrl": "images/the-divine-comedy.jpg",
+    "authors": [
+      "Dante Alighieri"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Sumer and Akkadian Empire",
+    "language": "Akkadian",
+    "pages": 160,
+    "title": "The Epic Of Gilgamesh",
+    "id": "6e7f3d13-f6df-4915-a997-6b1515501b09",
+    "rate": 90,
+    "published": "-1700-01-01T00:00:00",
+    "imageUrl": "images/the-epic-of-gilgamesh.jpg",
+    "authors": [
+      "Unknown"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Achaemenid Empire",
+    "language": "Hebrew",
+    "pages": 176,
+    "title": "The Book Of Job",
+    "id": "441ec505-6956-4c55-b9c4-c61a0a9440ba",
+    "rate": 90,
+    "published": "-600-01-01T00:00:00",
+    "imageUrl": "images/the-book-of-job.jpg",
+    "authors": [
+      "Unknown"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "India/Iran/Iraq/Egypt/Tajikistan",
+    "language": "Arabic",
+    "pages": 288,
+    "title": "One Thousand and One Nights",
+    "id": "6ce00d16-2a77-4aab-8d73-3531a5bfe860",
+    "rate": 90,
+    "published": "1200-01-01T00:00:00",
+    "imageUrl": "images/one-thousand-and-one-nights.jpg",
+    "authors": [
+      "Unknown"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Iceland",
+    "language": "Old Norse",
+    "pages": 384,
+    "title": "Njál\"s Saga",
+    "id": "363b6530-c829-4308-913b-cd006e292a9a",
+    "rate": 90,
+    "published": "1350-01-01T00:00:00",
+    "imageUrl": "images/njals-saga.jpg",
+    "authors": [
+      "Unknown"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 226,
+    "title": "Pride and Prejudice",
+    "id": "7930153f-893b-49f5-9767-a24ee42cd85e",
+    "rate": 90,
+    "published": "1813-01-01T00:00:00",
+    "imageUrl": "images/pride-and-prejudice.jpg",
+    "authors": [
+      "Jane Austen"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 443,
+    "title": "Le Père Goriot",
+    "id": "500052bb-ddd4-405c-8e05-ba8db9e5641a",
+    "rate": 90,
+    "published": "1835-01-01T00:00:00",
+    "imageUrl": "images/le-pere-goriot.jpg",
+    "authors": [
+      "Honoré de Balzac"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Republic of Ireland",
+    "language": "French, English",
+    "pages": 256,
+    "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+    "id": "69d5663d-69b7-431a-abd0-ec2c2bea0527",
+    "rate": 90,
+    "published": "1952-01-01T00:00:00",
+    "imageUrl": "images/molloy-malone-dies-the-unnamable.jpg",
+    "authors": [
+      "Samuel Beckett"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 1024,
+    "title": "The Decameron",
+    "id": "68b19830-5a19-4d3a-b7d1-d781600f59b2",
+    "rate": 90,
+    "published": "1351-01-01T00:00:00",
+    "imageUrl": "images/the-decameron.jpg",
+    "authors": [
+      "Giovanni Boccaccio"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Argentina",
+    "language": "Spanish",
+    "pages": 224,
+    "title": "Ficciones",
+    "id": "0319d622-a153-4281-b3dd-8cc6ed8c3f0a",
+    "rate": 90,
+    "published": "1965-01-01T00:00:00",
+    "imageUrl": "images/ficciones.jpg",
+    "authors": [
+      "Jorge Luis Borges"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 342,
+    "title": "Wuthering Heights",
+    "id": "eb04573c-1c50-4762-a05c-e88574926b9e",
+    "rate": 90,
+    "published": "1847-01-01T00:00:00",
+    "imageUrl": "images/wuthering-heights.jpg",
+    "authors": [
+      "Emily Brontë"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Algeria, French Empire",
+    "language": "French",
+    "pages": 185,
+    "title": "The Stranger",
+    "id": "80cb1721-f989-414f-92d7-bace1fc73ba6",
+    "rate": 90,
+    "published": "1942-01-01T00:00:00",
+    "imageUrl": "images/l-etranger.jpg",
+    "authors": [
+      "Albert Camus"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Romania, France",
+    "language": "German",
+    "pages": 320,
+    "title": "Poems",
+    "id": "ac945fc8-371a-4a46-a422-4ac2376c5e9f",
+    "rate": 90,
+    "published": "1952-01-01T00:00:00",
+    "imageUrl": "images/poems-paul-celan.jpg",
+    "authors": [
+      "Paul Celan"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 505,
+    "title": "Journey to the End of the Night",
+    "id": "cf34a837-dd4f-466d-97b7-5136d3e63cd9",
+    "rate": 90,
+    "published": "1932-01-01T00:00:00",
+    "imageUrl": "images/voyage-au-bout-de-la-nuit.jpg",
+    "authors": [
+      "Louis-Ferdinand Céline"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Spain",
+    "language": "Spanish",
+    "pages": 1056,
+    "title": "Don Quijote De La Mancha",
+    "id": "aa7f297a-8297-473e-be54-f0ba74f28bf9",
+    "rate": 90,
+    "published": "1610-01-01T00:00:00",
+    "imageUrl": "images/don-quijote-de-la-mancha.jpg",
+    "authors": [
+      "Miguel de Cervantes"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "England",
+    "language": "English",
+    "pages": 544,
+    "title": "The Canterbury Tales",
+    "id": "2013e5cb-727e-4717-976a-a82cd0470ee0",
+    "rate": 90,
+    "published": "1450-01-01T00:00:00",
+    "imageUrl": "images/the-canterbury-tales.jpg",
+    "authors": [
+      "Geoffrey Chaucer"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 194,
+    "title": "Stories",
+    "id": "64bfba07-5945-4765-97cc-f9c5394cb3cc",
+    "rate": 90,
+    "published": "1886-01-01T00:00:00",
+    "imageUrl": "images/stories-of-anton-chekhov.jpg",
+    "authors": [
+      "Anton Chekhov"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 320,
+    "title": "Nostromo",
+    "id": "c67f740e-35f8-4765-9539-c5564631bbe2",
+    "rate": 90,
+    "published": "1904-01-01T00:00:00",
+    "imageUrl": "images/nostromo.jpg",
+    "authors": [
+      "Joseph Conrad"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 194,
+    "title": "Great Expectations",
+    "id": "0aab2313-c8ea-4725-a3cb-ec7878726c15",
+    "rate": 90,
+    "published": "1861-01-01T00:00:00",
+    "imageUrl": "images/great-expectations.jpg",
+    "authors": [
+      "Charles Dickens"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 596,
+    "title": "Jacques the Fatalist",
+    "id": "63dcbada-8b4c-4139-a445-d445527710dc",
+    "rate": 90,
+    "published": "1796-01-01T00:00:00",
+    "imageUrl": "images/jacques-the-fatalist.jpg",
+    "authors": [
+      "Denis Diderot"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Germany",
+    "language": "German",
+    "pages": 600,
+    "title": "Berlin Alexanderplatz",
+    "id": "674ad5aa-5b24-4323-a8bf-ac3715bfe526",
+    "rate": 90,
+    "published": "1929-01-01T00:00:00",
+    "imageUrl": "images/berlin-alexanderplatz.jpg",
+    "authors": [
+      "Alfred Döblin"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 551,
+    "title": "Crime and Punishment",
+    "id": "4d12eddb-aecd-4327-99aa-23335a6b7300",
+    "rate": 90,
+    "published": "1866-01-01T00:00:00",
+    "imageUrl": "images/crime-and-punishment.jpg",
+    "authors": [
+      "Fyodor Dostoevsky"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 656,
+    "title": "The Idiot",
+    "id": "333b7fa1-d518-47e4-8711-26e6e7381ca5",
+    "rate": 90,
+    "published": "1869-01-01T00:00:00",
+    "imageUrl": "images/the-idiot.jpg",
+    "authors": [
+      "Fyodor Dostoevsky"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 768,
+    "title": "The Possessed",
+    "id": "54da3c00-3021-47ec-858e-c0370f9fa10e",
+    "rate": 90,
+    "published": "1872-01-01T00:00:00",
+    "imageUrl": "images/the-possessed.jpg",
+    "authors": [
+      "Fyodor Dostoevsky"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 824,
+    "title": "The Brothers Karamazov",
+    "id": "a34ddf89-dfef-4e00-95ff-eed081cb7305",
+    "rate": 90,
+    "published": "1880-01-01T00:00:00",
+    "imageUrl": "images/the-brothers-karamazov.jpg",
+    "authors": [
+      "Fyodor Dostoevsky"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 800,
+    "title": "Middlemarch",
+    "id": "9d027c1b-1217-4b3d-bdfd-5b629f74fad6",
+    "rate": 90,
+    "published": "1871-01-01T00:00:00",
+    "imageUrl": "images/middlemarch.jpg",
+    "authors": [
+      "George Eliot"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 581,
+    "title": "Invisible Man",
+    "id": "2d8a6ee0-828d-49a2-b342-61b061d106bd",
+    "rate": 90,
+    "published": "1952-01-01T00:00:00",
+    "imageUrl": "images/invisible-man.jpg",
+    "authors": [
+      "Ralph Ellison"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Greece",
+    "language": "Greek",
+    "pages": 104,
+    "title": "Medea",
+    "id": "5c8a6bb3-25a7-4cc2-8c70-5b4cdfaa9952",
+    "rate": 90,
+    "published": "-431-01-01T00:00:00",
+    "imageUrl": "images/medea.jpg",
+    "authors": [
+      "Euripides"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 313,
+    "title": "Absalom, Absalom!",
+    "id": "283abc97-af17-4ee1-acb7-53b4dc4858c0",
+    "rate": 90,
+    "published": "1936-01-01T00:00:00",
+    "imageUrl": "images/absalom-absalom.jpg",
+    "authors": [
+      "William Faulkner"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 326,
+    "title": "The Sound and the Fury",
+    "id": "c8bee9ee-b3f1-4109-8fb1-b4ce7ce886f5",
+    "rate": 90,
+    "published": "1929-01-01T00:00:00",
+    "imageUrl": "images/the-sound-and-the-fury.jpg",
+    "authors": [
+      "William Faulkner"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 528,
+    "title": "Madame Bovary",
+    "id": "627d06cb-79e1-456f-a28a-7af7b8738c62",
+    "rate": 90,
+    "published": "1857-01-01T00:00:00",
+    "imageUrl": "images/madame-bovary.jpg",
+    "authors": [
+      "Gustave Flaubert"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 606,
+    "title": "Sentimental Education",
+    "id": "4c1bce95-ba65-40d0-9d0f-1d636755552d",
+    "rate": 90,
+    "published": "1869-01-01T00:00:00",
+    "imageUrl": "images/l-education-sentimentale.jpg",
+    "authors": [
+      "Gustave Flaubert"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Spain",
+    "language": "Spanish",
+    "pages": 218,
+    "title": "Gypsy Ballads",
+    "id": "b13bbe08-e901-442f-979f-f489710ff9a9",
+    "rate": 90,
+    "published": "1928-01-01T00:00:00",
+    "imageUrl": "images/gypsy-ballads.jpg",
+    "authors": [
+      "Federico García Lorca"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Colombia",
+    "language": "Spanish",
+    "pages": 417,
+    "title": "One Hundred Years of Solitude",
+    "id": "a033ba7b-2570-4d51-beae-6a087d6daae4",
+    "rate": 90,
+    "published": "1967-01-01T00:00:00",
+    "imageUrl": "images/one-hundred-years-of-solitude.jpg",
+    "authors": [
+      "Gabriel García Márquez"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Colombia",
+    "language": "Spanish",
+    "pages": 368,
+    "title": "Love in the Time of Cholera",
+    "id": "90492ef4-9d40-4fa5-a1b7-4de52b01f48c",
+    "rate": 90,
+    "published": "1985-01-01T00:00:00",
+    "imageUrl": "images/love-in-the-time-of-cholera.jpg",
+    "authors": [
+      "Gabriel García Márquez"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Saxe-Weimar",
+    "language": "German",
+    "pages": 158,
+    "title": "Faust",
+    "id": "39852485-ca7e-4fa1-9470-de909efbbb4e",
+    "rate": 90,
+    "published": "1832-01-01T00:00:00",
+    "imageUrl": "images/faust.jpg",
+    "authors": [
+      "Johann Wolfgang von Goethe"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 432,
+    "title": "Dead Souls",
+    "id": "8e969eee-2e3c-47eb-b49e-66c57d02a5fc",
+    "rate": 90,
+    "published": "1842-01-01T00:00:00",
+    "imageUrl": "images/dead-souls.jpg",
+    "authors": [
+      "Nikolai Gogol"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Germany",
+    "language": "German",
+    "pages": 600,
+    "title": "The Tin Drum",
+    "id": "56d5de74-a60f-404d-a0c7-26874cc53a49",
+    "rate": 90,
+    "published": "1959-01-01T00:00:00",
+    "imageUrl": "images/the-tin-drum.jpg",
+    "authors": [
+      "Günter Grass"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Brazil",
+    "language": "Portuguese",
+    "pages": 494,
+    "title": "The Devil to Pay in the Backlands",
+    "id": "d2f80fd1-98f5-4c8d-a3eb-a80e0c5e6dcf",
+    "rate": 90,
+    "published": "1956-01-01T00:00:00",
+    "imageUrl": "images/the-devil-to-pay-in-the-backlands.jpg",
+    "authors": [
+      "João Guimarães Rosa"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Norway",
+    "language": "Norwegian",
+    "pages": 176,
+    "title": "Hunger",
+    "id": "3cb6d922-6dd7-433d-acf9-064751c9adf3",
+    "rate": 90,
+    "published": "1890-01-01T00:00:00",
+    "imageUrl": "images/hunger.jpg",
+    "authors": [
+      "Knut Hamsun"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 128,
+    "title": "The Old Man and the Sea",
+    "id": "4d33cbcf-e462-4ed7-92af-db5feca34185",
+    "rate": 90,
+    "published": "1952-01-01T00:00:00",
+    "imageUrl": "images/the-old-man-and-the-sea.jpg",
+    "authors": [
+      "Ernest Hemingway"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Greece",
+    "language": "Greek",
+    "pages": 608,
+    "title": "Iliad",
+    "id": "beaf6d5e-197a-4562-b519-284061c206bf",
+    "rate": 90,
+    "published": "-735-01-01T00:00:00",
+    "imageUrl": "images/the-iliad-of-homer.jpg",
+    "authors": [
+      "Homer"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Greece",
+    "language": "Greek",
+    "pages": 374,
+    "title": "Odyssey",
+    "id": "a731658c-7b74-436a-a98e-74d9d3bca688",
+    "rate": 90,
+    "published": "-800-01-01T00:00:00",
+    "imageUrl": "images/the-odyssey-of-homer.jpg",
+    "authors": [
+      "Homer"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Norway",
+    "language": "Norwegian",
+    "pages": 68,
+    "title": "A Doll\"s House",
+    "id": "87491852-ee51-468b-9d25-1d05c4f87d71",
+    "rate": 90,
+    "published": "1879-01-01T00:00:00",
+    "imageUrl": "images/a-Dolls-house.jpg",
+    "authors": [
+      "Henrik Ibsen"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Irish Free State",
+    "language": "English",
+    "pages": 228,
+    "title": "Ulysses",
+    "id": "b11635b9-c982-4c8f-8b0d-f6a93ea43a2d",
+    "rate": 90,
+    "published": "1922-01-01T00:00:00",
+    "imageUrl": "images/ulysses.jpg",
+    "authors": [
+      "James Joyce"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Czechoslovakia",
+    "language": "German",
+    "pages": 488,
+    "title": "Stories",
+    "id": "302e321d-2f23-49ec-8a1e-956795c5273f",
+    "rate": 90,
+    "published": "1924-01-01T00:00:00",
+    "imageUrl": "images/stories-of-franz-kafka.jpg",
+    "authors": [
+      "Franz Kafka"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Czechoslovakia",
+    "language": "German",
+    "pages": 160,
+    "title": "The Trial",
+    "id": "f8dae0f8-01f4-44d3-906b-804a1e273d2f",
+    "rate": 90,
+    "published": "1925-01-01T00:00:00",
+    "imageUrl": "images/the-trial.jpg",
+    "authors": [
+      "Franz Kafka"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Czechoslovakia",
+    "language": "German",
+    "pages": 352,
+    "title": "The Castle",
+    "id": "1efcf859-0371-49c9-9c2c-ab67ac7483d8",
+    "rate": 90,
+    "published": "1926-01-01T00:00:00",
+    "imageUrl": "images/the-castle.jpg",
+    "authors": [
+      "Franz Kafka"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "India",
+    "language": "Sanskrit",
+    "pages": 147,
+    "title": "The recognition of Shakuntala",
+    "id": "3b60afc5-08dd-467a-910b-9efaeaf50cba",
+    "rate": 90,
+    "published": "150-01-01T00:00:00",
+    "imageUrl": "images/the-recognition-of-shakuntala.jpg",
+    "authors": [
+      "Kālidāsa"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Japan",
+    "language": "Japanese",
+    "pages": 288,
+    "title": "The Sound of the Mountain",
+    "id": "ec26ef56-7f30-4dfa-9752-ca18adfca3c1",
+    "rate": 90,
+    "published": "1954-01-01T00:00:00",
+    "imageUrl": "images/the-sound-of-the-mountain.jpg",
+    "authors": [
+      "Yasunari Kawabata"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Greece",
+    "language": "Greek",
+    "pages": 368,
+    "title": "Zorba the Greek",
+    "id": "ee0fe891-47fb-4930-8b90-8a9e401836f7",
+    "rate": 90,
+    "published": "1946-01-01T00:00:00",
+    "imageUrl": "images/zorba-the-greek.jpg",
+    "authors": [
+      "Nikos Kazantzakis"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 432,
+    "title": "Sons and Lovers",
+    "id": "326631d6-896a-40d4-8c3d-f8c01905ffcb",
+    "rate": 90,
+    "published": "1913-01-01T00:00:00",
+    "imageUrl": "images/sons-and-lovers.jpg",
+    "authors": [
+      "D. H. Lawrence"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Iceland",
+    "language": "Icelandic",
+    "pages": 470,
+    "title": "Independent People",
+    "id": "c7d35eee-3210-4473-9f60-60feb1f4acd3",
+    "rate": 90,
+    "published": "1934-01-01T00:00:00",
+    "imageUrl": "images/independent-people.jpg",
+    "authors": [
+      "Halldór Laxness"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 184,
+    "title": "Poems",
+    "id": "7cfec40a-9b50-479d-8922-647ca5357d49",
+    "rate": 90,
+    "published": "1818-01-01T00:00:00",
+    "imageUrl": "images/poems-giacomo-leopardi.jpg",
+    "authors": [
+      "Giacomo Leopardi"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 688,
+    "title": "The Golden Notebook",
+    "id": "1f5ae4fc-c040-457a-9f74-627501d748c1",
+    "rate": 90,
+    "published": "1962-01-01T00:00:00",
+    "imageUrl": "images/the-golden-notebook.jpg",
+    "authors": [
+      "Doris Lessing"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Sweden",
+    "language": "Swedish",
+    "pages": 160,
+    "title": "Pippi Longstocking",
+    "id": "befcf065-63aa-4586-a1c5-c84bfd4befbd",
+    "rate": 90,
+    "published": "1945-01-01T00:00:00",
+    "imageUrl": "images/pippi-longstocking.jpg",
+    "authors": [
+      "Astrid Lindgren"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "China",
+    "language": "Chinese",
+    "pages": 389,
+    "title": "Diary of a Madman",
+    "id": "b3dbb537-7f4c-4406-a3bb-3157fe52c55b",
+    "rate": 90,
+    "published": "1918-01-01T00:00:00",
+    "imageUrl": "images/diary-of-a-madman.jpg",
+    "authors": [
+      "Lu Xun"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Egypt",
+    "language": "Arabic",
+    "pages": 355,
+    "title": "Children of Gebelawi",
+    "id": "6fa1c659-3008-4a9d-a53f-74f460304bbb",
+    "rate": 90,
+    "published": "1959-01-01T00:00:00",
+    "imageUrl": "images/children-of-gebelawi.jpg",
+    "authors": [
+      "Naguib Mahfouz"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Germany",
+    "language": "German",
+    "pages": 736,
+    "title": "Buddenbrooks",
+    "id": "e8c967cf-cb5d-4b48-9478-6825df968174",
+    "rate": 90,
+    "published": "1901-01-01T00:00:00",
+    "imageUrl": "images/buddenbrooks.jpg",
+    "authors": [
+      "Thomas Mann"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Germany",
+    "language": "German",
+    "pages": 720,
+    "title": "The Magic Mountain",
+    "id": "86127654-7746-4d1c-b7e7-6c47377dcbd2",
+    "rate": 90,
+    "published": "1924-01-01T00:00:00",
+    "imageUrl": "images/the-magic-mountain.jpg",
+    "authors": [
+      "Thomas Mann"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 378,
+    "title": "Moby Dick",
+    "id": "387e9201-0f06-4b16-8cba-490f19cea846",
+    "rate": 90,
+    "published": "1851-01-01T00:00:00",
+    "imageUrl": "images/moby-dick.jpg",
+    "authors": [
+      "Herman Melville"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 404,
+    "title": "Essays",
+    "id": "cfdb64bb-c466-4aa4-b87a-2057c249ec68",
+    "rate": 90,
+    "published": "1595-01-01T00:00:00",
+    "imageUrl": "images/essais.jpg",
+    "authors": [
+      "Michel de Montaigne"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 600,
+    "title": "History",
+    "id": "20cfe98a-3000-4f01-963f-2dcb060e61c8",
+    "rate": 90,
+    "published": "1974-01-01T00:00:00",
+    "imageUrl": "images/history.jpg",
+    "authors": [
+      "Elsa Morante"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 321,
+    "title": "Beloved",
+    "id": "00a409f5-8558-478c-b96c-dd5cebc836a6",
+    "rate": 90,
+    "published": "1987-01-01T00:00:00",
+    "imageUrl": "images/beloved.jpg",
+    "authors": [
+      "Toni Morrison"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Japan",
+    "language": "Japanese",
+    "pages": 1360,
+    "title": "The Tale of Genji",
+    "id": "9e8f3918-9cff-470d-84ce-979d71282fcc",
+    "rate": 90,
+    "published": "1006-01-01T00:00:00",
+    "imageUrl": "images/the-tale-of-genji.jpg",
+    "authors": [
+      "Murasaki Shikibu"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Austria",
+    "language": "German",
+    "pages": 365,
+    "title": "The Man Without Qualities",
+    "id": "298a59b7-4f0f-4e27-9567-daa11df92fbf",
+    "rate": 90,
+    "published": "1931-01-01T00:00:00",
+    "imageUrl": "images/the-man-without-qualities.jpg",
+    "authors": [
+      "Robert Musil"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia/United States",
+    "language": "English",
+    "pages": 317,
+    "title": "Lolita",
+    "id": "5f2a089f-cf67-4189-9124-ba91613713b9",
+    "rate": 90,
+    "published": "1955-01-01T00:00:00",
+    "imageUrl": "images/lolita.jpg",
+    "authors": [
+      "Vladimir Nabokov"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 272,
+    "title": "Nineteen Eighty-Four",
+    "id": "07023173-3f16-45b3-a27c-f8d1149c8286",
+    "rate": 90,
+    "published": "1949-01-01T00:00:00",
+    "imageUrl": "images/nineteen-eighty-four.jpg",
+    "authors": [
+      "George Orwell"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Roman Empire",
+    "language": "Classical Latin",
+    "pages": 576,
+    "title": "Metamorphoses",
+    "id": "3df1b08a-b222-4903-8123-cc95ad2cc021",
+    "rate": 90,
+    "published": "100-01-01T00:00:00",
+    "imageUrl": "images/the-metamorphoses-of-ovid.jpg",
+    "authors": [
+      "Ovid"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Portugal",
+    "language": "Portuguese",
+    "pages": 272,
+    "title": "The Book of Disquiet",
+    "id": "f010bb4d-1d1c-4c4a-93c6-d91f0785598a",
+    "rate": 90,
+    "published": "1928-01-01T00:00:00",
+    "imageUrl": "images/the-book-of-disquiet.jpg",
+    "authors": [
+      "Fernando Pessoa"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 842,
+    "title": "Tales",
+    "id": "fb515dab-586a-4981-9425-5f46271efea9",
+    "rate": 90,
+    "published": "1950-01-01T00:00:00",
+    "imageUrl": "images/tales-and-poems-of-edgar-allan-poe.jpg",
+    "authors": [
+      "Edgar Allan Poe"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 2408,
+    "title": "In Search of Lost Time",
+    "id": "c2d1021d-8c1b-451d-baab-f0f36d524ee5",
+    "rate": 90,
+    "published": "1920-01-01T00:00:00",
+    "imageUrl": "images/a-la-recherche-du-temps-perdu.jpg",
+    "authors": [
+      "Marcel Proust"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 623,
+    "title": "Gargantua and Pantagruel",
+    "id": "1da3ac3d-48c8-4994-997e-5299545649ed",
+    "rate": 90,
+    "published": "1533-01-01T00:00:00",
+    "imageUrl": "images/gargantua-and-pantagruel.jpg",
+    "authors": [
+      "François Rabelais"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Mexico",
+    "language": "Spanish",
+    "pages": 124,
+    "title": "Pedro Páramo",
+    "id": "47f7bd21-6804-4567-8e56-7662c2614bdb",
+    "rate": 90,
+    "published": "1955-01-01T00:00:00",
+    "imageUrl": "images/pedro-paramo.jpg",
+    "authors": [
+      "Juan Rulfo"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Sultanate of Rum",
+    "language": "Persian",
+    "pages": 438,
+    "title": "The Masnavi",
+    "id": "c7f3ed38-821c-4a15-9b7c-01eb618b43c6",
+    "rate": 90,
+    "published": "1236-01-01T00:00:00",
+    "imageUrl": "images/the-masnavi.jpg",
+    "authors": [
+      "Rumi"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom, India",
+    "language": "English",
+    "pages": 536,
+    "title": "Midnight\"s Children",
+    "id": "e50c322b-3eb8-4ad5-843c-00a66c71ae8f",
+    "rate": 90,
+    "published": "1981-01-01T00:00:00",
+    "imageUrl": "images/midnights-children.jpg",
+    "authors": [
+      "Salman Rushdie"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Persia, Persian Empire",
+    "language": "Persian",
+    "pages": 298,
+    "title": "Bostan",
+    "id": "e4316bb9-910b-434e-9b44-ed23cc39734c",
+    "rate": 90,
+    "published": "1257-01-01T00:00:00",
+    "imageUrl": "images/bostan.jpg",
+    "authors": [
+      "Saadi"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Sudan",
+    "language": "Arabic",
+    "pages": 139,
+    "title": "Season of Migration to the North",
+    "id": "ed5ff7d8-17b4-455d-8d00-1469bc389f9c",
+    "rate": 90,
+    "published": "1966-01-01T00:00:00",
+    "imageUrl": "images/season-of-migration-to-the-north.jpg",
+    "authors": [
+      "Tayeb Salih"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Portugal",
+    "language": "Portuguese",
+    "pages": 352,
+    "title": "Blindness",
+    "id": "ebb193b7-24eb-42e1-a45f-24c62f881504",
+    "rate": 90,
+    "published": "1995-01-01T00:00:00",
+    "imageUrl": "images/blindness.jpg",
+    "authors": [
+      "José Saramago"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "England",
+    "language": "English",
+    "pages": 432,
+    "title": "Hamlet",
+    "id": "a71b4249-5e7f-4c26-977f-4cc7ec201e10",
+    "rate": 90,
+    "published": "1603-01-01T00:00:00",
+    "imageUrl": "images/hamlet.jpg",
+    "authors": [
+      "William Shakespeare"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "England",
+    "language": "English",
+    "pages": 384,
+    "title": "King Lear",
+    "id": "c439a142-e8c3-488d-86a4-8d63a87199ba",
+    "rate": 90,
+    "published": "1608-01-01T00:00:00",
+    "imageUrl": "images/king-lear.jpg",
+    "authors": [
+      "William Shakespeare"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "England",
+    "language": "English",
+    "pages": 314,
+    "title": "Othello",
+    "id": "b8c12ad0-0d17-4544-a134-6e7a01c65b13",
+    "rate": 90,
+    "published": "1609-01-01T00:00:00",
+    "imageUrl": "images/othello.jpg",
+    "authors": [
+      "William Shakespeare"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Greece",
+    "language": "Greek",
+    "pages": 88,
+    "title": "Oedipus the King",
+    "id": "c260198e-92f1-42bd-9aee-bc8a030f5ea3",
+    "rate": 90,
+    "published": "-430-01-01T00:00:00",
+    "imageUrl": "images/oedipus-the-king.jpg",
+    "authors": [
+      "Sophocles"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France",
+    "language": "French",
+    "pages": 576,
+    "title": "The Red and the Black",
+    "id": "36117911-8cce-4261-81c6-4e6d74c9e341",
+    "rate": 90,
+    "published": "1830-01-01T00:00:00",
+    "imageUrl": "images/le-rouge-et-le-noir.jpg",
+    "authors": [
+      "Stendhal"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "England",
+    "language": "English",
+    "pages": 640,
+    "title": "The Life And Opinions of Tristram Shandy",
+    "id": "1de4489f-7e50-4f60-95d8-d466355364cf",
+    "rate": 90,
+    "published": "1760-01-01T00:00:00",
+    "imageUrl": "images/the-life-and-opinions-of-tristram-shandy.jpg",
+    "authors": [
+      "Laurence Sterne"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Italy",
+    "language": "Italian",
+    "pages": 412,
+    "title": "Confessions of Zeno",
+    "id": "7ede3bc4-70d9-4c8a-89a9-7771e46ff8b8",
+    "rate": 90,
+    "published": "1923-01-01T00:00:00",
+    "imageUrl": "images/confessions-of-zeno.jpg",
+    "authors": [
+      "Italo Svevo"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Ireland",
+    "language": "English",
+    "pages": 178,
+    "title": "Gulliver\"s Travels",
+    "id": "dcff87e3-2585-4d02-a244-421c0c2db0af",
+    "rate": 90,
+    "published": "1726-01-01T00:00:00",
+    "imageUrl": "images/gullivers-travels.jpg",
+    "authors": [
+      "Jonathan Swift"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 1296,
+    "title": "War and Peace",
+    "id": "11a08835-eb6a-48e2-b5fa-d98af1f72060",
+    "rate": 90,
+    "published": "1867-01-01T00:00:00",
+    "imageUrl": "images/war-and-peace.jpg",
+    "authors": [
+      "Leo Tolstoy"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 864,
+    "title": "Anna Karenina",
+    "id": "620b29d9-e1df-4b4e-8bcb-70f919469606",
+    "rate": 90,
+    "published": "1877-01-01T00:00:00",
+    "imageUrl": "images/anna-karenina.jpg",
+    "authors": [
+      "Leo Tolstoy"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Russia",
+    "language": "Russian",
+    "pages": 92,
+    "title": "The Death of Ivan Ilyich",
+    "id": "b5f2ceff-f5e4-4409-8a84-67be4e989a5e",
+    "rate": 90,
+    "published": "1886-01-01T00:00:00",
+    "imageUrl": "images/the-death-of-ivan-ilyich.jpg",
+    "authors": [
+      "Leo Tolstoy"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 224,
+    "title": "The Adventures of Huckleberry Finn",
+    "id": "f7c563dc-1bb6-498d-9d3b-bb0a73e00767",
+    "rate": 90,
+    "published": "1884-01-01T00:00:00",
+    "imageUrl": "images/the-adventures-of-huckleberry-finn.jpg",
+    "authors": [
+      "Mark Twain"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "India",
+    "language": "Sanskrit",
+    "pages": 152,
+    "title": "Ramayana",
+    "id": "3f96c8b2-0f32-4bbf-a357-16a1f34350c7",
+    "rate": 90,
+    "published": "-450-01-01T00:00:00",
+    "imageUrl": "images/ramayana.jpg",
+    "authors": [
+      "Valmiki"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "Roman Empire",
+    "language": "Classical Latin",
+    "pages": 442,
+    "title": "The Aeneid",
+    "id": "5caee6e1-a81b-4cf9-8f64-2a12571a5164",
+    "rate": 90,
+    "published": "-23-01-01T00:00:00",
+    "imageUrl": "images/the-aeneid.jpg",
+    "authors": [
+      "Virgil"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "India",
+    "language": "Sanskrit",
+    "pages": 276,
+    "title": "Mahabharata",
+    "id": "2c463c4d-cbbb-4347-99be-f4837cf3d0ef",
+    "rate": 90,
+    "published": "-700-01-01T00:00:00",
+    "imageUrl": "images/the-mahab-harata.jpg",
+    "authors": [
+      "Vyasa"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United States",
+    "language": "English",
+    "pages": 152,
+    "title": "Leaves of Grass",
+    "id": "15f6f92a-3b84-44a6-b99f-ba7d37d50ba3",
+    "rate": 90,
+    "published": "1855-01-01T00:00:00",
+    "imageUrl": "images/leaves-of-grass.jpg",
+    "authors": [
+      "Walt Whitman"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 216,
+    "title": "Mrs Dalloway",
+    "id": "8c458f47-faa8-4ef5-8c2b-e68ffca52be8",
+    "rate": 90,
+    "published": "1925-01-01T00:00:00",
+    "imageUrl": "images/mrs-dalloway.jpg",
+    "authors": [
+      "Virginia Woolf"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "United Kingdom",
+    "language": "English",
+    "pages": 209,
+    "title": "To the Lighthouse",
+    "id": "5ac484a6-7296-4fae-823e-3024b6fc8cc1",
+    "rate": 90,
+    "published": "1927-01-01T00:00:00",
+    "imageUrl": "images/to-the-lighthouse.jpg",
+    "authors": [
+      "Virginia Woolf"
+    ],
+    "filePath": null,
+    "description": null,
+    "subDescription": null,
+    "categories": null
+  },
+  {
+    "country": "France/Belgium",
+    "language": "French",
+    "pages": 408,
+    "title": "Memoirs of Hadrian",
+    "id": "586c8e17-b021-46e9-aa1d-802d939a4151",
+    "rate": 90,
+    "published": "1951-01-01T00:00:00",
+    "imageUrl": "images/memoirs-of-hadrian.jpg",
+    "authors": [
+      "Marguerite Yourcenar"
+    ],
+    "filePath": null,
+    "description": [
+      "Memoirs of Hadrian (French: Mémoires d'Hadrien) is a novel by the Belgian-born French writer Marguerite Yourcenar about the life and death of Roman Emperor Hadrian. First published in France in French in 1951 as Mémoires d'Hadrien, the book was an immediate success, meeting with enormous critical acclaim. Although the historical Hadrian wrote an autobiography, it has been lost.\n\nThe book takes the form of a letter to Hadrian's adoptive grandson and eventual successor \"Mark\" (Marcus Aurelius). The emperor meditates on military triumphs, love of poetry and music, philosophy, and his passion for his lover Antinous, all in a manner similar to Gustave Flaubert's \"melancholy of the antique world.\"\n\nYourcenar noted in her postscript \"Carnet de note\" to the original edition, quoting Flaubert, that she had chosen Hadrian as the subject of the novel in part because he had lived at a time when the Roman gods were no longer believed in, but Christianity was not yet established. This intrigued her for what she saw as parallels to her own post-war European world"
+    ],
+    "subDescription": null,
+    "categories": [
+      "Historical novel",
+      "Philosophical novel"
+    ]
+  }
+]
