@@ -3,19 +3,22 @@ import { Router, View } from 'react-navi'
 
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import routes from '../routes';
+import { navigation } from '../routes';
 
-import styles from './app.scss';
+import './app.scss';
 
 const App = () => {
   return (
-    <div className={styles.app}>
+    <div className='app'>
       <Header/>
-      <Router routes={routes}>
-        <Suspense fallback={null}>
-          <View/>
-        </Suspense>
-      </Router>
+      <main className='main'>
+        <Router navigation={navigation}>
+          <Suspense fallback={null}>
+            <View/>
+          </Suspense>
+        </Router>
+        <div className='footer'/>
+      </main>
       <Footer/>
     </div>
   );

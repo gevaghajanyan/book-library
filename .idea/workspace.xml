@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b822c719-5339-4468-b6a9-0a02737022f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/favicon..png" afterDir="false" />
+    <list default="true" id="b822c719-5339-4468-b6a9-0a02737022f8" name="Default Changelist" comment="header responsive">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/BookService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/BookService.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +21,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U0kIW48mZu9y1VMcQMieRTS9u0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -27,7 +40,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -45,18 +60,6 @@
       <recent name="C:\Users\37494\Desktop\book-library\src\assets\images\categories" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,10 +74,56 @@
       <workItem from="1574791117812" duration="13691000" />
       <workItem from="1575309023486" duration="10252000" />
       <workItem from="1575400867105" duration="627000" />
+      <workItem from="1575651848535" duration="72000" />
+      <workItem from="1576085617169" duration="4540000" />
+      <workItem from="1576343399651" duration="122000" />
+      <workItem from="1579287999839" duration="6858000" />
+      <workItem from="1581618594601" duration="138000" />
+      <workItem from="1581622700421" duration="214000" />
+      <workItem from="1587323847260" duration="667000" />
     </task>
+    <task id="LOCAL-00001" summary="header responsive">
+      <created>1575403573202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575403573202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="header responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="header responsive" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="621" y="186" key="FileChooserDialogImpl" timestamp="1581622843177">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="621" y="186" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1581622843177" />
+    <state x="301" y="73" key="SettingsEditor" timestamp="1581622912517">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="73" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1581622912517" />
+    <state x="488" y="277" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581622909514">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="488" y="277" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1600.860@0.0.1600.860" timestamp="1581622909514" />
   </component>
 </project>

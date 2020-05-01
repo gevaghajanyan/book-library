@@ -1,4 +1,4 @@
-import { lazy, mount, route } from 'navi';
+import { lazy, mount, route, createBrowserNavigation } from 'navi';
 import Home from './home/Main/Home';
 import Books from './Books/Books';
 import React from 'react';
@@ -15,4 +15,6 @@ const routes = mount({
   '/book': lazy(() => import('../routes/book/book.route.js'))
 });
 
-export default routes;
+export const navigation = createBrowserNavigation({
+  routes,
+});

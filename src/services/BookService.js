@@ -12,12 +12,29 @@ class BookService {
   };
 
   getBookById = id => {
-    const book = allBooks.find(book => book.id == id);
-    return Promise.resolve(book);
+    return fetch(`http://localhost:4321/api/books/${id}`, {
+      method: 'GET',
+      mode: 'cors',
+      headers: {
+        'Access-Control-Allow-Origin': '*'
+      }
+    })
+      .then(res => res.json())
+      .then(({ data }) => data)
+      .catch(error => console.error(error));
   };
 
   getAllBooks = () => {
-    return Promise.resolve(Array.from(allBooks))
+    return fetch('http://localhost:4321/api/books', {
+      method: 'GET',
+      mode: 'cors',
+      headers: {
+        'Access-Control-Allow-Origin': '*'
+      }
+    })
+      .then(res => res.json())
+      .then(({ data }) => data)
+      .catch(error => console.error(error));
   }
 }
 

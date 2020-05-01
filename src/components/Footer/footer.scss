@@ -1,6 +1,11 @@
 footer.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 1px black;
+  background: var(--main-light-color);
 }
