@@ -12,7 +12,7 @@ const Books = memo(({ ...props }) => {
     <section className='book-list-view'>
       {bookList.data.map(book => (
         <BookCard
-          key={book.id}
+          key={book._id}
           book={book}
         />
       ))}

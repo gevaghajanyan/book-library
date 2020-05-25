@@ -7,47 +7,52 @@ import RateStars from '../../RateStars/RateStars';
 
 const CategoryCard = memo(({
   card: {
-    title,
     rate,
-    booksCount,
-    imageUrl,
-    topBooks,
+    image,
+    category: {
+      name,
+    },
+    books,
   },
 }) => {
   return (
     <section className='category-card-section' style={{
-      backgroundImage: `url(${imageUrl})`
+      backgroundImage: `url(${image})`,
     }}>
       <header className='category-card-header'>
-        <h3>{title}</h3>
+        <h3>{name}</h3>
       </header>
       <span>
-        {booksCount} books
+        {books.length} books
       </span>
       <RateStars rate={rate}/>
       <section className='category-card-books'>
         {
-          topBooks.map(book => {
-            return <Book book={book} showTitle={false} key={book.id}/>
+          books.slice(0, 2).map(book => {
+            return <Book book={book} showTitle={false} key={book.id}/>;
           })
         }
       </section>
     </section>
-  )
+  );
 });
 
 CategoryCard.propTypes = {
   card: PropTypes.shape({
-    title: PropTypes.string,
-    rate: PropTypes.number,
-    booksCount: PropTypes.number,
-    imageUrl: PropTypes.string,
-    topBooks: PropTypes.arrayOf(PropTypes.shape({
-      imageUrl: PropTypes.string,
-      id: PropTypes.number,
+    category: PropTypes.shape({
+      name: PropTypes.string,
+    }),
+    books: PropTypes.arrayOf(PropTypes.shape({
+      _id: PropTypes.string,
+      authors: PropTypes.array,
       title: PropTypes.string,
-    }))
-  })
+      file: PropTypes.string,
+      image: PropTypes.string,
+      categories: PropTypes.array,
+      rate: PropTypes.number,
+      published: PropTypes.any,
+    })),
+  }),
 };
 
-export default CategoryCard
+export default CategoryCard;

@@ -6,7 +6,10 @@ export const useTheLatestBl = props => {
   const [books, setBooks] = useState(new FetchData([]));
 
   useEffect(() => {
-    bookService.getTheLatestBooks().then(res => {
+    bookService.getTheLatestBooks({
+      page: 0,
+      count: 6,
+    }).then(res => {
       setBooks(books.fetched(res));
     })
   }, []);

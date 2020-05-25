@@ -1,13 +1,12 @@
 import React, { memo } from 'react';
 
-import { useMostPopularBl } from './useMostPopularBl'
+import { useMostPopularBl } from './useMostPopularBl';
 
-import './mostPopular.scss'
+import './mostPopular.scss';
 import BookCard from '../book/BookCard/BookCard';
 
 const MostPopular = memo(({ ...props }) => {
-  const bl = useMostPopularBl(props);
-  const { mostPopularBooks } = bl;
+  const { mostPopularBooks } = useMostPopularBl(props);
   return (
     <section className='most-popular'>
       <header className='most-popular-header'>
@@ -16,14 +15,17 @@ const MostPopular = memo(({ ...props }) => {
       <div className='most-popular-books'>
         {
           mostPopularBooks.data.map(book => {
-            return <BookCard book={book} key={book.id}/>
+            return <BookCard
+              book={book}
+              key={book._id}
+            />;
           })
         }
       </div>
     </section>
-  )
+  );
 });
 
 MostPopular.propTypes = {};
 
-export default MostPopular
+export default MostPopular;

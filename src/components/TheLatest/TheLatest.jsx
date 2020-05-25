@@ -17,14 +17,19 @@ const TheLatest = memo(({ ...props }) => {
       <section className='the-latest-books'>
         {
           books.data.map(book => {
-            return <Book book={book} key={book.id}/>
+            return (
+              <Book
+                book={book}
+                key={book._id}
+              />
+            );
           })
         }
       </section>
     </section>
-  )
+  );
 });
 
 TheLatest.propTypes = {};
 
-export default TheLatest
+export default TheLatest;

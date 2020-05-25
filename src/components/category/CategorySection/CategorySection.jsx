@@ -7,6 +7,7 @@ import './categorySection.scss';
 
 const CategorySection = memo(({ ...props }) => {
   const { categories } = useCategorySectionBl(props);
+  console.log(categories,  categories);
   return (
     <section className='categories-section'>
       <header>
